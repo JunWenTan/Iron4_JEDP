@@ -1,0 +1,55 @@
+#div1 {
+
+    height: 150px;
+    width: 200px;
+    border: solid;
+
+    display: table;
+}
+
+#div1 > #div2.fill
+{
+    height: auto;
+    width: 200px;
+    border: solid;
+
+}
+
+
+
+.row
+{
+    display: flex; /*equal height of children*/
+}
+
+#col
+{
+    /*Additionally , equal width*/
+    flex: 1;
+    border: solid;
+}
+
+#col > #doctorvideo.fill
+{
+    height: auto;
+}
+
+/*#patientvideo,#utils
+{
+  max-height: 50%;
+  max-width: 50%;
+}*/
+
+/*#patientvideo
+{
+  width: auto;
+  height: auto;
+
+}
+
+#utils
+{
+  width: auto;
+  height: auto;
+
+}*/
